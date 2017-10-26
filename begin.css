@@ -1,0 +1,100 @@
+body {
+  background:    #999999;
+}
+
+#top {
+  font:          Microsoft YaHei;
+  background:    #111111;
+  margin:        10px 10px 0px 10px;
+  padding-left:  0px;
+}
+
+#top img {
+  border-bottom:     1px double #adadad;
+  margin:            0px;
+}
+
+#top p {
+  margin:            0px;
+} 
+
+#top em   {float:right;
+              padding-right:10px;}
+
+a:link    {color: #ffffff;}
+a:visited {color: #ffffff;}
+a:hover   {color: #38b0de;}
+a         {text-decoration:none;}
+
+#john a:link    {color: #999999;}
+#john a:visited {color: #ffffff;}
+#john a:hover   {color: #38b0de;}
+nav ul li a:hover   {background: #555555;}
+
+nav ul {
+    background:      #cccccc;
+    margin:          10px 10px 0px 10px;
+    list-style-type: none;
+    padding:         5px 0px 5px 30px;
+}
+
+nav ul li {
+    display:         inline;
+    padding:         5px 10px 5px 10px;
+}
+
+
+
+div#tableC {
+  display:           table;
+  border-spacing:    10px;
+}
+
+div#tableR {
+  display:           table-row;
+}
+
+#leftC {
+  display:           table-cell;
+  background:        #333333 bottom right;
+  font:              80%;
+  color:             #dddddd;
+  padding:           15px;
+  width:             200px;
+}
+
+#main {
+  display:           table-cell;
+  background:        #333333 bottom right url(img/bg.png) ;
+  font:              #dddddd small;
+  padding:           15px;
+  width:             1000px;
+}
+
+#rightC {
+  display:           table-cell;
+  background:        #1197d3 bottom right;
+  font-size:         80%;
+  padding:           0px 0px 15px 0px;
+
+}
+
+#rightC img {
+  margin:            0px;
+}
+
+#john {
+  font:          small;
+  background:    #666699;
+  margin:        0px;
+  padding:       10px;
+}
+
+#footer {
+  background-color: #444444;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  font-size:        70%;
+}
